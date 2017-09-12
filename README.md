@@ -1,6 +1,3 @@
-# Fork notes:
-This fork of TechWizTime's moonlight-retropie installation script updates the functionality to remove the mapping step. Most controller configs are built into moonlight-embedded at this point, and performing a 'map' caused the application to hang for me. I also fix the mapping and fps launch options to match the newest version of moonlight-embedded. Original README from TechWizTime below.
-
 # moonlight-retropie
 The Install &amp; Setup Script for Moonlight within RetroPie 4.2+ from **TechWizTime**
 
@@ -9,7 +6,6 @@ This script will install the Steam Streaming application Moonlight on your Raspb
 ## What does this do
 This script currently will do the following:
 - Install Moonlight
-- Create a Controller Map
 - Create Launch Scripts for 720p 30fps, 720p 60ps, 1080p 30fps, 1080p 60fps
 - Pair With GameStream on PC
 - Setup a Steam Menu in RetroPie
